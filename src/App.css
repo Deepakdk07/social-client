@@ -12,18 +12,18 @@
 .ui.red.button:focus, .ui.red.buttons .button:focus{
     background: #db2828;
 }
-
 .square {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     position: relative;
+    margin: 200px auto;
     perspective: 200px;
   }
   .square div {
     position: absolute;
     top: 0;
-    height: 50px;
-    width: 50px;
+    height: 25px;
+    width: 25px;
     background: teal;
     animation: flip 2s linear infinite;
     transform-origin: right bottom;
