@@ -30,7 +30,10 @@ function Home() {
           </Grid.Column>)
       }
       {loading ? (
-        <h1>Loading posts..</h1>
+        <div class="square">
+          <div></div>
+          <div></div>
+        </div>
       ) : (
         <Transition.Group>
         {posts.data &&
