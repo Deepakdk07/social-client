@@ -35,7 +35,10 @@ function SinglePost(props) {
     }
     let postMarkup;
     if(!getPost){
-        postMarkup = <p>Loading post...</p>
+        postMarkup = <div class="square">
+        <div></div>
+        <div></div>
+      </div>
     } 
     else
     {
